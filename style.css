@@ -18,12 +18,16 @@ body{
 
     width: 100%;
     height: 100%;
-    
+    font-size: 16px;
     background-color: rgb(239, 229, 229);
     color: rgb(244, 237, 237);
 
 }
-
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
 
 
 .logo{
@@ -143,7 +147,7 @@ nav a.active{
     background-color: rgba(29, 49, 96, 0.968);
     padding: 2.5%;
     margin-left: 8%; ;
-    margin-top: 30rem;
+    margin-top: 43rem;
     width: 130rem;
     border-radius: 1%;
     position:absolute;
@@ -160,7 +164,7 @@ nav a.active{
     
     margin-left: 10%;
     text-align:left;
-    margin-top: 21%;
+    margin-top: 30%;
     position:absolute;
     z-index: 1;
 }
@@ -175,7 +179,7 @@ nav a.active{
     font-size: 1.8rem;
     text-align:left;
     margin-left: 30%;
-    margin-top: 20.7%;
+    margin-top: 29.5%;
     position:absolute;
     z-index: 1;
     text-align:center;
@@ -183,7 +187,7 @@ nav a.active{
 
 .navbar{
     overflow: hidden;
-    background-color: aqua;
+    background-color: rgba(225, 238, 238, 0.541);
 }
 
 .navbar.dropdown{
@@ -218,7 +222,7 @@ nav a.active{
     background-color: #f9f9f9;
     min-width: 160px;
     margin-left: 30%;
-    margin-top: 20.7%;
+    margin-top: 29.5%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1
    
@@ -265,7 +269,7 @@ nav a.active{
         font-size: 1.8rem;
         text-align:left;
         margin-left: 46.5%;
-        margin-top: 20.7%;
+        margin-top: 29.5%;
         position:absolute;
         z-index: 1;
         text-align: center;
@@ -308,7 +312,7 @@ nav a.active{
         background-color: #f9f9f9;
         min-width: 160px;
         margin-left: 46.5%;
-        margin-top: 20.7%;
+        margin-top: 29.5%;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1
        
@@ -349,7 +353,7 @@ nav a.active{
             font-size: 1.8rem;
             text-align:left;
             margin-left: 63%;
-            margin-top: 20.7%;
+            margin-top: 29.5%;
             position:absolute;
             z-index: 1;text-align: center;
         }
@@ -391,7 +395,7 @@ nav a.active{
             background-color: #f9f9f9;
             min-width: 160px;
             margin-left: 63%;
-            margin-top: 20.8%;
+            margin-top: 29.5%;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1
            
@@ -443,7 +447,7 @@ nav a.active{
     margin-left: 78%;
     
     text-align: center;
-    margin-top: 20.6%;
+    margin-top: 29.2%;
     padding:0.7%;
     position:absolute;
     z-index: 1;
@@ -454,4 +458,597 @@ nav a.active{
 }
 
 
+.t4{
+    width: 38%;
+    height: 53%;
+    margin-top: 50%;
+    margin-left: 9%;
+    position: absolute;
+    z-index:1;
+}
+
+.memorable{
+    font-size: 6.4rem;
+    margin-top: 49%;
+    margin-left:53% ;
+    color: #161313;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.memorable1{
+    font-size: 2rem;
+    margin-top: 65%;
+    margin-left:53% ;
+    color: #161313;
+    position: absolute;
+    z-index: 2;
+}
+
+.num1{
+    font-size: 5rem;
+    color: #efbf58;
+    margin-top:71% ;
+    margin-left:56% ;
+    position: absolute;
+}
+
+
+.num2{
+    font-size: 5rem;
+    color: #efbf58;
+    margin-top:71% ;
+    margin-left:68.5% ;
+    position: absolute;
+}
+
+
+.num3{
+    font-size: 5rem;
+    color: #efbf58;
+    margin-top:71% ;
+    margin-left:84% ;
+    position: absolute;
+}
+
+
+.unnum1{
+    font-size: 1.8rem;
+    margin-top: 75%;
+    margin-left:54.5% ;
+    color: #161313;
+    position: absolute;
+}
+
+
+.unnum2{
+    font-size: 1.8rem;
+    margin-top: 75%;
+    margin-left:69% ;
+    color: #161313;
+    position: absolute;
+}
+
+
+
+.unnum3{
+    font-size: 1.8rem;
+    margin-top: 75%;
+    margin-left:82.5% ;
+    color: #161313;
+    position: absolute;
+}
+
+
+.title{
+    font-size: 4rem;
+    margin-top: 90%;
+    text-align: center;
+    margin-left: 41%;
+    color: #161313;
+    position: absolute;
+}
+
+
+.title2{
+    font-size: 2rem;
+    font-weight: 80;
+    margin-top: 94%;
+    text-align: center;
+    margin-left: 12%;
+    color: #161313;
+    position: absolute;
+}
+
+
+
+
+.card { background-color: white;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+     overflow: hidden; 
+     margin-top: 160rem; 
+     margin-left: 13%;
+     width: 300px; 
+     text-align: center; 
+     font-size: 2rem;
+    position: absolute; } 
+
+     
+.card-image { width: 100%; 
+        height: 200px; 
+        object-fit: cover; 
+        transition: transform 0.5s
+    } 
+    .card-image:hover{
+        transform: scale(1.1);
+       }
+.card-content { padding: 20px; 
+     font-size: 2rem;
+     transition:ease;
+                            cursor: pointer;} 
+.card-content h2 {
+         margin: 0; 
+         font-size: 2rem; 
+         color: #333;
+         transition:ease;
+        cursor: pointer; } 
+
+
+.card-content p { 
+        margin: 10px 0; 
+        color: #666;
+        transition:ease;
+        cursor: pointer; }
+
+        .card-content:hover{
+            color: #ed411a;
+          } 
+          .card-content h2:hover{
+            color: #ed411a;
+          } 
+          .card-content p:hover{
+            color: #ed411a;
+          }        
+
+
+
+.card2 { background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            overflow: hidden; 
+            margin-top: 160rem; 
+            margin-left: 40%;
+            width: 300px; 
+            text-align: center; 
+            font-size: 2rem;
+        position: absolute; } 
+       
+            
+.card-image2 { width: 100%; 
+               height: 200px; 
+               object-fit: cover; 
+               transition: transform 0.5s
+           } 
+           .card-image2:hover{
+            transform: scale(1.1);
+           }
+.card-content2 { padding: 20px; 
+            font-size: 2rem;
+            transition:ease;
+            cursor: pointer;
+           } 
+.card-content2 h2 {
+                margin: 0; 
+                font-size: 2rem; 
+                color: #333;
+                transition:ease;
+                cursor: pointer; } 
+       
+       
+.card-content2 p { 
+               margin: 10px 0; 
+               color: #666;
+               transition:ease;
+               cursor: pointer; }
          
+               .card-content2:hover{
+                color: #ed411a;
+              } 
+              .card-content2 h2:hover{
+                color: #ed411a;
+              } 
+              .card-content2 p:hover{
+                color: #ed411a;
+              }        
+
+               .card3{ background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                overflow: hidden; 
+                margin-top: 160rem; 
+                margin-left: 67.5%;
+                width: 300px; 
+                text-align: center; 
+                font-size: 2rem;
+               position: absolute; } 
+           
+                
+           .card-image3 { width: 100%; 
+                   height: 200px; 
+                   object-fit: cover;
+                   transition: transform 0.5s
+                  
+               } 
+               .card-image3:hover{
+                transform: scale(1.1);
+               }
+           .card-content3 { padding: 20px; 
+                font-size: 2rem;
+                transition:ease;
+                cursor: pointer;} 
+           .card-content3 h2 {
+                    margin: 0; 
+                    font-size: 2rem; 
+                    color: #333;
+                    transition:ease;
+                    cursor: pointer; } 
+           
+           
+           .card-content3 p { 
+                   margin: 10px 0; 
+                   color: #666; 
+                   transition:ease;
+                   cursor: pointer;}
+                   .card-content3:hover{
+                    color: #ed411a;
+                  } 
+                  .card-content3 h2:hover{
+                    color: #ed411a;
+                  } 
+                  .card-content3 p:hover{
+                    color: #ed411a;
+                  }        
+
+
+
+
+.card4 { background-color: white;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                    overflow: hidden; 
+                    margin-top: 200rem; 
+                    margin-left: 13%;
+                    width: 300px; 
+                    text-align: center; 
+                    font-size: 2rem;
+                position: absolute; } 
+               
+                    
+        .card-image4 { width: 100%; 
+                       height: 200px; 
+                       object-fit: cover; 
+                       transition: transform 0.5s
+                   } 
+                   .card-image4:hover{
+                    transform: scale(1.1);
+                   }
+        .card-content4 { padding: 20px; 
+                    font-size: 2rem;
+                    transition:ease;
+                    cursor: pointer;
+                   } 
+        .card-content4 h2 {
+                        margin: 0; 
+                        font-size: 2rem; 
+                        color: #333;
+                        transition:ease;
+                        cursor: pointer; } 
+               
+               
+        .card-content4 p { 
+                       margin: 10px 0; 
+                       color: #666;
+                       transition:ease;
+                       cursor: pointer; }
+                       .card-content4:hover{
+                        color: #ed411a;
+                      } 
+                      .card-content4 h2:hover{
+                        color: #ed411a;
+                      } 
+                      .card-content4 p:hover{
+                        color: #ed411a;
+                      }        
+
+
+
+
+                       .card5{ background-color: white;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                        overflow: hidden; 
+                        margin-top: 200rem; 
+                        margin-left: 40%;
+                        width: 300px; 
+                        text-align: center; 
+                        font-size: 2rem;
+                       position: absolute; } 
+                   
+                        
+                   .card-image5 { width: 100%; 
+                           height: 200px; 
+                           object-fit: cover; 
+                           transition: transform 0.5s
+                       } 
+                       .card-image5:hover{
+                        transform: scale(1.1);
+                       }
+                   .card-content5 { padding: 20px; 
+                        font-size: 2rem;
+                        transition:ease;
+                        cursor: pointer;} 
+                   .card-content5 h2 {
+                            margin: 0; 
+                            font-size: 2rem; 
+                            color: #333;
+                            transition:ease;
+                            cursor: pointer; } 
+                   
+                   
+                   .card-content5 p { 
+                           margin: 10px 0; 
+                           color: #666;
+                           transition:ease;
+                           cursor: pointer; }
+
+                           .card-content5:hover{
+                            color: #ed411a;
+                          } 
+                          .card-content5 h2:hover{
+                            color: #ed411a;
+                          } 
+                          .card-content5 p:hover{
+                            color: #ed411a;
+                          }        
+
+
+                           .card6 { background-color: white;
+                            border-radius: 10px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                            overflow: hidden; 
+                            margin-top: 200rem; 
+                            margin-left: 67.5%;
+                            width: 300px; 
+                            text-align: center; 
+                            font-size: 2rem;
+                        position: absolute; } 
+                       
+                            
+                .card-image6 { width: 100%; 
+                               height: 200px; 
+                               object-fit: cover; 
+                               transition: transform 0.5s
+                           } 
+                           .card-image6:hover{
+                            transform: scale(1.1);
+                           }
+                .card-content6 { padding: 20px; 
+                            font-size: 2rem;
+                            transition:ease;
+                            cursor: pointer;
+                           } 
+                .card-content6 h2 {
+                                margin: 0; 
+                                font-size: 2rem; 
+                                color: #333;
+                                transition:ease;
+                                cursor: pointer; } 
+                       
+                       
+                .card-content6 p { 
+                               margin: 10px 0; 
+                               color: #666;
+                               transition:ease;
+                               cursor: pointer; }
+
+
+  .card-content6:hover{
+    color: #ed411a;
+  } 
+  .card-content6 h2:hover{
+    color: #ed411a;
+  } 
+  .card-content6 p:hover{
+    color: #ed411a;
+  }                             
+.more{
+    color: rgb(251, 251, 251);
+    border-radius:10px;
+    background-color: rgb(243, 65, 41);
+    width: 10%;
+    height: 5.5%;
+    font-style:inherit;
+    font-size: 2.1rem;
+    
+    margin-left: 45%;
+    
+    text-align: center;
+    margin-top: 244rem;
+    padding:0.7%;
+    position:absolute;
+    z-index: 1;
+}
+
+
+
+.more:hover{
+    border-bottom: 3px solid #ed9879;
+    background-color: #c9bdba;
+}
+
+
+
+
+
+.recent{
+    font-size: 4rem;
+    margin-top: 270rem;
+    margin-left: 43.5%;
+    color: #161313;
+    position: absolute;
+}
+
+
+.recent2{
+    font-size: 2rem;
+    font-weight: 80;
+    margin-top: 275rem;
+    text-align: center;
+    margin-left: 12%;
+    color: #161313;
+    position: absolute;
+}
+
+
+.cardd { background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       overflow: hidden;
+        margin-top: 290rem;
+        margin-left: 9%;
+         width: 350px;
+          text-align: center;
+           transition:transform 0.3s ease;
+           position: absolute;
+           
+
+            
+        } 
+        .cardd:hover { transform: scale(1.05);  } 
+        .cardd-image { width: 100%;
+             height: 200px;
+              object-fit: cover; transition:ease;
+              cursor: pointer; 
+             } 
+             .cardd-content { padding: 20px
+                ;
+                transition:ease;
+                cursor: pointer; 
+             } 
+             .cardd-content h2 { margin: 0;
+                 font-size: 2rem;
+                  color: #333;
+                  transition:ease;
+                  cursor: pointer;  
+                } 
+                .cardd-content p {
+                     margin: 10px 0;
+                      color: #666;
+                    font-size: 2rem;
+                    transition:ease;
+                    cursor: pointer;  }
+                    .cardd-content:hover{
+                        color: #ed411a;
+                      } 
+                      .cardd-content h2:hover{
+                        color: #ed411a;
+                      } 
+                      .cardd-content p:hover{
+                        color: #ed411a;
+                      } 
+
+
+                      .cardd1 { background-color: rgb(255, 255, 255);
+                        border-radius: 10px;
+                         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                          overflow: hidden;
+                           margin-top: 290rem;
+                           margin-left: 38.5%;
+                            width: 350px;
+                             text-align: center;
+                              transition:transform 0.3s ease;
+                              position: absolute;
+                              
+                   
+                               
+                           } 
+                           .cardd1:hover { transform: scale(1.05);  } 
+                           .cardd1-image { width: 100%;
+                                height: 200px;
+                                 object-fit: cover; transition:ease;
+                                 cursor: pointer; 
+                                } 
+                                .cardd1-content { padding: 20px
+                                   ;
+                                   transition:ease;
+                                   cursor: pointer; 
+                                } 
+                                .cardd1-content h2 { margin: 0;
+                                    font-size: 2rem;
+                                     color: #333;
+                                     transition:ease;
+                                     cursor: pointer;  
+                                   } 
+                                   .cardd1-content p {
+                                        margin: 10px 0;
+                                         color: #666;
+                                       font-size: 2rem;
+                                       transition:ease;
+                                       cursor: pointer;  }
+                                       .cardd1-content:hover{
+                                           color: #ed411a;
+                                         } 
+                                         .cardd1-content h2:hover{
+                                           color: #ed411a;
+                                         } 
+                                         .cardd1-content p:hover{
+                                           color: #ed411a;
+                                         } 
+                                         .cardd2 { background-color: rgb(255, 255, 255);
+                                            border-radius: 10px;
+                                             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                              overflow: hidden;
+                                               margin-top: 290rem;
+                                               margin-left: 68%;
+                                                width: 350px;
+                                                 text-align: center;
+                                                  transition:transform 0.3s ease;
+                                                  position: absolute;
+                                                  
+                                       
+                                                   
+                                               } 
+                                               .cardd2:hover { transform: scale(1.05);  } 
+                                               .cardd2-image { width: 100%;
+                                                    height: 200px;
+                                                     object-fit: cover; transition:ease;
+                                                     cursor: pointer; 
+                                                    } 
+                                                    .cardd2-content { padding: 20px
+                                                       ;
+                                                       transition:ease;
+                                                       cursor: pointer; 
+                                                    } 
+                                                    .cardd2-content h2 { margin: 0;
+                                                        font-size: 2rem;
+                                                         color: #333;
+                                                         transition:ease;
+                                                         cursor: pointer;  
+                                                       } 
+                                                       .cardd2-content p {
+                                                            margin: 10px 0;
+                                                             color: #666;
+                                                           font-size: 2rem;
+                                                           transition:ease;
+                                                           cursor: pointer;  }
+                                                           .cardd2-content:hover{
+                                                               color: #ed411a;
+                                                             } 
+                                                             .cardd2-content h2:hover{
+                                                               color: #ed411a;
+                                                             } 
+                                                             .cardd2-content p:hover{
+                                                               color: #ed411a;
+                                                             } 
